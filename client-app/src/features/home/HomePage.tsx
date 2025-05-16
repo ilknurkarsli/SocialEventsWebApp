@@ -1,9 +1,10 @@
 import { observer } from "mobx-react-lite";
 import { Link } from "react-router-dom";
-import { Container, Header, Segment, Image, Button } from "semantic-ui-react";
+import { Container, Header, Segment, Image, Button, Divider } from "semantic-ui-react";
 import { useStore } from "../../app/stores/store";
 import LoginForm from "../users/LoginForm";
 import RegisterForm from "../users/RegisterForm";
+import FacebookLogin, { FailResponse, SuccessResponse } from "@greatsumini/react-facebook-login";
 
 export default observer( function HomePage(){
     const {userStore, modalStore}=useStore();
@@ -29,6 +30,16 @@ export default observer( function HomePage(){
                     <Button onClick={()=>modalStore.openModel(<RegisterForm/>)} size="huge" inverted>
                         Register
                     </Button>
+                    <Divider horizontal inverted> Or </Divider>
+                    <FacebookLogin
+                        appId="655161570501266"
+                        onSuccess={(response: SuccessResponse)=>{
+                            userStore.facebookLogin(response.accessToken);
+                            console.log("Login Success!!", response);
+                        }}
+                        onFail={(response: FailResponse)=>{console.log("Login Failed!!!", response)}}
+                        className={`ui button facebook huge inverted ${userStore.fbLoading && "loading"}`}
+                    />
                     </>
                    
                 )}

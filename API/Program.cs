@@ -49,7 +49,7 @@ app.MapControllers();
 app.MapHub<ChatHub>("/chat");
 app.MapFallbackToController("Index","FallBack");
 
-//this scope is gon be desposed as soon as weve excecuted the following code!
+//this scope is gon be desposed as soon as we've excecuted the following code!
 using var scope =app.Services.CreateScope();
 
 var services=scope.ServiceProvider;
