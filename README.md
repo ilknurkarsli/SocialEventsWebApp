@@ -31,7 +31,7 @@ This project is a social event management application developed using ASP.NET Co
 - Pagination, filtering, sorting
 - Deployment to Azure
 
-  ##App Pics
+## App Pics
 
   <img width="1346" alt="Screenshot 2025-05-16 at 18 40 51" src="https://github.com/user-attachments/assets/ab923870-44c5-40f7-b283-d3459f7e8824" />
   <img width="1064" alt="Screenshot 2025-05-16 at 19 20 14" src="https://github.com/user-attachments/assets/4972e0d3-ad3a-4650-a807-3c3aea8f9f03" />
