@@ -33,6 +33,10 @@ This project is a social event management application developed using ASP.NET Co
 
 ## App Pics
 
-  <img width="1346" alt="Screenshot 2025-05-16 at 18 40 51" src="https://github.com/user-attachments/assets/ab923870-44c5-40f7-b283-d3459f7e8824" />
-  <img width="1064" alt="Screenshot 2025-05-16 at 19 20 14" src="https://github.com/user-attachments/assets/4972e0d3-ad3a-4650-a807-3c3aea8f9f03" />
-  <img width="663" alt="Screenshot 2025-05-16 at 19 20 31" src="https://github.com/user-attachments/assets/16be4367-e5c1-4e5b-9226-9f4ef1ead5f8" />
+  <img width="1420" alt="Screenshot 2025-05-22 at 18 42 23" src="https://github.com/user-attachments/assets/8057af18-6a72-4087-9f99-8535e4e97c9c" />
+  <img width="1457" alt="Screenshot 2025-05-22 at 18 42 10" src="https://github.com/user-attachments/assets/be37c2d1-dc09-4a36-9421-75525c0794d6" />  
+<img width="989" alt="Screenshot 2025-05-22 at 18 41 49" src="https://github.com/user-attachments/assets/c4fc3676-8578-42d8-b539-e67a4e300b86" />
+<img width="1023" alt="Screenshot 2025-05-22 at 18 40 33" src="https://github.com/user-attachments/assets/d3ffd04b-632c-4600-ba8d-1ef43254c66c" />
+
+
+
