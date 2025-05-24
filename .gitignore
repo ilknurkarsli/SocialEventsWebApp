@@ -5,6 +5,9 @@ obj/
 *.suo
 *.cache
 *.log
+API/appsettings.json
+API/appsettings.Development.json
+
 
 # Visual Studio
 .vscode/
